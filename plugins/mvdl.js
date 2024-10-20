@@ -19,7 +19,7 @@ cmd({
     desc: "download cinerulk movie ",
     category: "movie",
     react: "🎬",
-    use: '.mvdl <name>
+    use: '.mvdl <name>',
     filename: __filename
 },
 async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
