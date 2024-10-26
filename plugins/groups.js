@@ -103,7 +103,7 @@ cmd({
     pattern: "grouplink",
     desc: "Get the group's invite link.",
     react: "💡",
-    use ".grouplink",
+    use: ".grouplink",
     category: "group",
     filename: __filename
 },
